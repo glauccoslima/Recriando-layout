@@ -1,0 +1,106 @@
+/* Reset básico e estilos globais */
+* {
+  background-color: #2C2B3D;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Centraliza o conteúdo da página horizontalmente */
+.page {
+  margin: 0 auto;
+}
+
+/* Estilização do cabeçalho */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 607px;
+  margin-top: 71px;
+}
+
+/* Estilização da lista de navegação */
+ul {
+  display: flex;
+  gap: 64px;
+}
+
+/* Estilização dos links de navegação */
+ul li a {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Estilização do conteúdo principal */
+main {
+  display: flex;
+  margin-top: 101px;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilização da seção dentro do conteúdo principal */
+section {
+  width: 35%;
+  align-self: flex-start;
+  text-align: center;
+  margin-left: 100px;
+}
+
+/* Estilização do título dentro da seção */
+section h1 {
+  font-family: JetBrains Mono;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #fff;
+}
+
+/* Cor destaque para partes do título */
+section h1 span {
+  color: #00BFA6;
+}
+
+/* Cor destaque para partes do texto dentro da seção */
+section p span {
+  color: #00BFA6;
+  font-weight: bold;
+}
+
+/* Estilização do parágrafo dentro da seção */
+section p {
+  margin-top: 59px;
+  color: #C2C2C2;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+/* Estilização das imagens no rodapé */
+footer img {
+  display: flex;
+  margin: 167px auto 27px;
+}
+
+/* Estilização do texto no rodapé */
+footer p {
+  color: #FFF;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+/* Estilização da imagem do cadeado no rodapé */
+.cadeado {
+  display: flex;
+  margin: -65px 20px;
+}
